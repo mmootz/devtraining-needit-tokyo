@@ -17,7 +17,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Requested</label>
+            <label>Open</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>0</sequence>
@@ -33,7 +33,7 @@
             <element>state</element>
             <hint/>
             <inactive>true</inactive>
-            <label>Closed Complete</label>
+            <label>Approved</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>0</sequence>
@@ -42,14 +42,14 @@
             <sys_created_on>2022-12-21 23:15:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>3</value>
+            <value>15</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Awaiting Approval</label>
+            <label>Work in Progress</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>1</sequence>
@@ -64,8 +64,24 @@
             <dependent_value/>
             <element>state</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Withdrawn</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-21 23:15:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
             <inactive>false</inactive>
-            <label>Approved</label>
+            <label>Closed Complete</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>2</sequence>
@@ -74,7 +90,23 @@
             <sys_created_on>2022-12-21 23:15:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>15</value>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-03 19:56:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -91,22 +123,6 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <value>3</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Withdrawn</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-21 23:15:53</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <value>8</value>
         </sys_choice>
     </sys_choice>
 </record_update>
